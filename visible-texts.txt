@@ -1,0 +1,412 @@
+Loan Syndication
+
+Due Diligence
+
+Portfolio Valuation
+
+Restated Financials
+
+fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+e?
+
+flex items-center gap-3 cursor-pointer
+
+Shree Shyam Money Care Logo
+
+h-10 w-auto object-contain
+
+Shree Shyam
+
+hidden lg:flex items-center gap-6
+
+Get Consultation
+
+lg:hidden flex flex-col gap-1.5 p-2
+
+Toggle menu
+
+relative min-h-screen flex items-center justify-center overflow-hidden
+
+absolute inset-0
+
+Financial Excellence
+
+w-full h-full object-cover object-top
+
+max-w-4xl mx-auto text-center
+
+inline-flex items-center justify-center mb-8
+
+Your Trusted Financial Partner Since 2015
+
+text-5xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight
+
+Empowering Your
+
+Financial Future
+
+with Expert Solutions
+
+Comprehensive IPO services, loan syndication, due diligence, and portfolio valuation to help your business thrive in the competitive financial landscape
+
+flex flex-col sm:flex-row gap-4 justify-center items-center
+
+Explore Our Services
+
+Get in Touch
+
+grid grid-cols-2 md:grid-cols-4 gap-6 mt-20 max-w-3xl mx-auto
+
+Happy Clients
+
+Success Rate
+
+Years Experience
+
+text-center bg-white/60 backdrop-blur-sm rounded-lg p-4
+
+absolute inset-0 opacity-5
+
+text-center mb-16
+
+inline-block mb-4
+
+Our Expertise
+
+text-4xl md:text-5xl lg:text-6xl font-bold mb-6
+
+text-lg text-gray-600 max-w-2xl mx-auto
+
+Comprehensive financial solutions tailored to meet your business needs and drive sustainable growth
+
+grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto
+
+IPO Services
+
+End-to-end IPO advisory services including market assessment, documentation, compliance, and listing support to help your company go public successfully.
+
+Strategic loan structuring and syndication services connecting businesses with the right lenders for optimal financing solutions.
+
+Comprehensive financial, legal, and operational due diligence to mitigate risks and ensure informed investment decisions.
+
+Accurate portfolio assessment and valuation services using industry-standard methodologies to determine true market value.
+
+Restated Financial Statements
+
+Certified restatement of historical financials to align with current accounting standards, regulatory formats, and IPO compliance requirements.
+
+group bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer
+
+w-16 h-16 rounded-full bg-gradient-to-br ${
+e.gradient}
+ flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300
+
+text-gray-600 leading-relaxed mb-6
+
+ri-arrow-right-line text-xl group-hover:translate-x-1 transition-transform
+
+py-24 bg-white
+
+grid grid-cols-1 lg:grid-cols-2 gap-16 items-center
+
+relative rounded-3xl overflow-hidden shadow-2xl
+
+IPO Advisory
+
+text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight
+
+Take Your Company Public with Confidence
+
+text-lg text-gray-600 mb-8 leading-relaxed
+
+Our comprehensive IPO services guide you through every step of the public offering process, from initial planning to successful listing and beyond. With deep market knowledge and regulatory expertise, we ensure a smooth transition to the public markets.
+
+grid grid-cols-1 md:grid-cols-2 gap-4 mb-8
+
+Market Assessment & Feasibility Analysis
+
+Regulatory Compliance & Documentation
+
+Valuation & Pricing Strategy
+
+Roadshow Management & Investor Relations
+
+Post-IPO Support & Compliance
+
+Listing Strategy & Exchange Coordination
+
+flex items-start gap-3
+
+Discuss Your IPO
+
+ri-arrow-right-line text-xl
+
+order-2 lg:order-1
+
+Financing Solutions
+
+Structured Loan Syndication for Your Growth
+
+text-lg text-gray-600 mb-10 leading-relaxed
+
+Access capital efficiently through our loan syndication services. We connect businesses with a network of financial institutions, structuring optimal financing solutions that align with your growth objectives and repayment capabilities.
+
+grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8
+
+Optimal Financing
+
+Secure the best possible terms and interest rates through our extensive lender network
+
+Expert Negotiation
+
+Leverage our relationships and expertise to negotiate favorable loan structures
+
+Quick Processing
+
+Streamlined processes ensure faster loan approval and disbursement timelines
+
+Risk Mitigation
+
+Comprehensive risk assessment and management throughout the syndication process
+
+bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-shadow
+
+text-lg font-bold text-gray-900 mb-2
+
+text-sm text-gray-600
+
+Explore Financing Options
+
+order-1 lg:order-2 relative
+
+Comprehensive Due Diligence Services
+
+text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed
+
+Make informed investment decisions with our thorough due diligence process. We conduct detailed investigations across financial, legal, operational, and commercial aspects to identify risks and opportunities.
+
+grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16
+
+Financial Due Diligence
+
+Comprehensive analysis of financial statements, cash flows, and accounting practices
+
+Legal Due Diligence
+
+Review of contracts, compliance, litigation risks, and regulatory matters
+
+Operational Due Diligence
+
+Assessment of business operations, processes, and management capabilities
+
+Tax Due Diligence
+
+Evaluation of tax compliance, liabilities, and optimization opportunities
+
+Commercial Due Diligence
+
+Market analysis, competitive positioning, and growth potential assessment
+
+Compliance Due Diligence
+
+Verification of regulatory adherence and industry-specific requirements
+
+text-xl font-bold text-gray-900 mb-3
+
+text-3xl font-bold text-white mb-4
+
+Need a Thorough Due Diligence Report?
+
+text-gray-100 text-lg mb-8 max-w-2xl mx-auto
+
+Our experienced team delivers detailed, actionable insights to support your investment and acquisition decisions
+
+Request Due Diligence
+
+Financial Restatement
+
+We prepare certified restated financial statements that meet the stringent requirements of SEBI, stock exchanges, and institutional investors. Whether you are planning an IPO, raising funds, or complying with regulatory mandates, our restatement services ensure accuracy, consistency, and full regulatory alignment.
+
+Historical Financial Restatement
+
+Recompilation and restatement of past financial statements to comply with Ind AS, IFRS, or Schedule III formats.
+
+Audit & Certification
+
+Independent audit and certification of restated financials by qualified Chartered Accountants for regulatory acceptance.
+
+IPO Compliance Formatting
+
+Preparation of financials in the exact format required by SEBI and stock exchanges for DRHP and RHP filings.
+
+Adjustment & Reconciliation
+
+Identification and quantification of material adjustments needed between original and restated figures.
+
+Accounting Standard Alignment
+
+Restatement to align with current accounting policies, estimates, and applicable accounting standards consistently.
+
+Regulatory Review Support
+
+End-to-end support during SEBI, MCA, and exchange reviews with clarifications on restatement methodology.
+
+Need Certified Restated Financials?
+
+Our Chartered Accountants ensure your financials are restated with precision and fully compliant with regulatory requirements.
+
+Get Restatement Quote
+
+Valuation Services
+
+Accurate Portfolio Valuation & Assessment
+
+Get precise valuation of your investment portfolio, business assets, or companies using industry-leading methodologies. Our expert valuations support strategic decisions, fundraising, M&A transactions, and financial reporting.
+
+text-xl font-bold text-gray-900 mb-4
+
+Valuation Methodologies
+
+grid grid-cols-1 sm:grid-cols-2 gap-3
+
+Discounted Cash Flow (DCF) Analysis
+
+Comparable Company Analysis
+
+Precedent Transaction Analysis
+
+Asset-Based Valuation
+
+Market Multiple Approach
+
+Real Options Valuation
+
+ri-check-line text-white text-xs
+
+text-gray-700 text-sm
+
+Industries We Serve
+
+flex flex-wrap gap-2
+
+Technology & Software
+
+Real Estate
+
+Financial Services
+
+E-commerce & Retail
+
+Energy & Resources
+
+Get Valuation Quote
+
+absolute -bottom-8 -left-8 bg-white rounded-2xl shadow-2xl p-6
+
+flex items-center gap-4
+
+ri-briefcase-line text-2xl text-white
+
+text-3xl font-bold text-gray-900
+
+Valuations Done
+
+absolute -top-8 -right-8 bg-white rounded-2xl shadow-2xl p-6 max-w-xs
+
+ri-award-line text-2xl text-white
+
+Accuracy Rate
+
+absolute inset-0 opacity-10
+
+text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight
+
+Ready to Elevate Your Financial Strategy?
+
+text-xl text-gray-300 mb-10 max-w-2xl mx-auto
+
+Schedule a complimentary consultation with our experts today
+
+ri-calendar-line text-2xl
+
+Schedule Consultation
+
+flex flex-wrap justify-center items-center gap-4 text-sm text-gray-400
+
+flex items-center gap-2
+
+No obligation
+
+Expert guidance
+
+mt-16 pt-12 border-t border-gray-700
+
+grid grid-cols-1 md:grid-cols-3 gap-8
+
+text-white font-semibold mb-1
+
+Mumbai, Maharashtra, India
+
+grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10
+
+flex items-center gap-3 mb-4
+
+w-14 h-14 rounded-xl bg-white p-1.5 flex items-center justify-center shrink-0 shadow-md
+
+w-full h-full object-contain rounded-lg
+
+font-bold text-lg leading-tight text-white
+
+text-teal-200 font-semibold text-sm
+
+text-teal-100 text-sm leading-relaxed mb-5
+
+Your trusted partner for IPO advisory, loan syndication, due diligence, and portfolio valuation services.
+
+flex items-center gap-3
+
+font-semibold text-white text-base mb-4
+
+Financial Consulting
+
+Investment Planning
+
+text-teal-100 text-sm hover:text-white transition-colors duration-200 flex items-center gap-2
+
+font-semibold text-white text-base mt-6 mb-3
+
+w-8 h-8 rounded bg-white/10 flex items-center justify-center shrink-0
+
+ri-mail-line text-white
+
+text-white/60 text-xs mb-1
+
+text-white hover:text-teal-200 transition-colors text-sm
+
+ri-phone-line text-white
+
+flex items-start gap-2 text-teal-100 text-sm
+
+text-teal-100 text-sm mb-4
+
+Stay updated with the latest financial insights and market news.
+
+ri-checkbox-circle-line text-lg
+
+Thank you for subscribing!
+
+flex flex-col gap-2
+
+Your email address
+
+border-t border-white/10
+
+text-teal-200 text-xs
+
+Shree Shyam Money Care. All rights reserved.
+
+Designed with
+
+for financial excellence
+
+min-h-screen bg-white

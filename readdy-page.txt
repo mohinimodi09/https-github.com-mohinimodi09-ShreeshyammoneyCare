@@ -1,0 +1,748 @@
+import{
+a as e,n as t,t as n}
+from"./jsx-runtime-DWSWI4JT.js";
+var r=e(t(),1),i=e(n(),1);
+
+function a({
+scrolled:e}
+){
+let[t,n]=(0,r.useState)(!1),a=[{
+label:`Home`,href:`#home`}
+,{
+label:`Services`,href:`#services`}
+,{
+label:`IPO`,href:`#ipo`}
+,{
+label:`Loan Syndication`,href:`#loan`}
+,{
+label:`Due Diligence`,href:`#due-diligence`}
+,{
+label:`Portfolio Valuation`,href:`#portfolio`}
+,{
+label:`Restated Financials`,href:`#restated-financials`}
+,{
+label:`Contact`,href:`#contact`}
+];
+return(0,i.jsxs)(`nav`,{
+className:`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+e?`bg-white shadow-md`:`bg-white/80 backdrop-blur-sm`}
+`,children:[(0,i.jsxs)(`div`,{
+className:`container mx-auto px-6 lg:px-12 flex items-center justify-between h-16`,children:[(0,i.jsxs)(`a`,{
+href:`#home`,className:`flex items-center gap-3 cursor-pointer`,children:[(0,i.jsx)(`img`,{
+src:`https://static.readdy.ai/image/a8f77b3e64e67f5f94074cdf9b9d0f44/67962d6029db30f87429d5d899091b69.jpeg`,alt:`Shree Shyam Money Care Logo`,className:`h-10 w-auto object-contain`}
+),(0,i.jsxs)(`span`,{
+className:`text-[#0F766E] font-bold text-lg leading-tight hidden sm:block`,children:[`Shree Shyam`,(0,i.jsx)(`br`,{
+}
+),(0,i.jsx)(`span`,{
+className:`text-[#14B8A6] font-semibold text-sm`,children:`Money Care`}
+)]}
+)]}
+),(0,i.jsx)(`ul`,{
+className:`hidden lg:flex items-center gap-6`,children:a.map(e=>(0,i.jsx)(`li`,{
+children:(0,i.jsx)(`a`,{
+href:e.href,className:`text-sm font-medium text-[#0F766E] hover:text-[#14B8A6] transition-colors duration-200 whitespace-nowrap`,children:e.label}
+)}
+,e.href))}
+),(0,i.jsx)(`a`,{
+href:`#contact`,className:`hidden lg:inline-flex items-center px-5 py-2 bg-[#14B8A6] text-white text-sm font-semibold rounded-lg hover:bg-[#0D9488] transition-colors duration-200 whitespace-nowrap`,children:`Get Consultation`}
+),(0,i.jsxs)(`button`,{
+className:`lg:hidden flex flex-col gap-1.5 p-2`,onClick:()=>n(!t),"aria-label":`Toggle menu`,children:[(0,i.jsx)(`span`,{
+className:`block w-6 h-0.5 bg-[#0F766E] transition-all duration-300 ${
+t?`rotate-45 translate-y-2`:``}
+`}
+),(0,i.jsx)(`span`,{
+className:`block w-6 h-0.5 bg-[#0F766E] transition-all duration-300 ${
+t?`opacity-0`:``}
+`}
+),(0,i.jsx)(`span`,{
+className:`block w-6 h-0.5 bg-[#0F766E] transition-all duration-300 ${
+t?`-rotate-45 -translate-y-2`:``}
+`}
+)]}
+)]}
+),t&&(0,i.jsx)(`div`,{
+className:`lg:hidden bg-white border-t border-[#14B8A6]/20 shadow-lg`,children:(0,i.jsxs)(`ul`,{
+className:`flex flex-col py-4 px-6 gap-4`,children:[a.map(e=>(0,i.jsx)(`li`,{
+children:(0,i.jsx)(`a`,{
+href:e.href,className:`text-sm font-medium text-[#0F766E] hover:text-[#14B8A6] transition-colors duration-200`,onClick:()=>n(!1),children:e.label}
+)}
+,e.href)),(0,i.jsx)(`li`,{
+children:(0,i.jsx)(`a`,{
+href:`#contact`,className:`inline-flex items-center px-5 py-2 bg-[#14B8A6] text-white text-sm font-semibold rounded-lg hover:bg-[#0D9488] transition-colors duration-200`,onClick:()=>n(!1),children:`Get Consultation`}
+)}
+)]}
+)}
+)]}
+)}
+
+function o(){
+let[e,t]=(0,r.useState)(!1);
+return(0,r.useEffect)(()=>{
+let e=()=>{
+t(window.scrollY>50)}
+;
+return window.addEventListener(`scroll`,e),()=>window.removeEventListener(`scroll`,e)}
+,[]),(0,i.jsxs)(`section`,{
+id:`home`,className:`relative min-h-screen flex items-center justify-center overflow-hidden`,children:[(0,i.jsxs)(`div`,{
+className:`absolute inset-0`,children:[(0,i.jsx)(`img`,{
+src:`https://readdy.ai/api/search-image?query=Abstract%20financial%20growth%20visualization%20with%20ascending%20geometric%20shapes%20and%20market%20graphs%20in%20turquoise%20blue%20gradient%20background%20creating%20professional%20corporate%20atmosphere%20with%20floating%20data%20elements%20and%20modern%20business%20aesthetics%20conveying%20trust%20and%20prosperity&width=1920&height=1080&seq=hero-bg-turq-001&orientation=landscape`,alt:`Financial Excellence`,className:`w-full h-full object-cover object-top`}
+),(0,i.jsx)(`div`,{
+className:`absolute inset-0 bg-gradient-to-br from-[#E0F2F1]/95 via-[#B2DFDB]/90 to-[#80CBC4]/85`}
+)]}
+),(0,i.jsx)(a,{
+scrolled:e}
+),(0,i.jsx)(`div`,{
+className:`relative z-10 container mx-auto px-6 lg:px-12 py-32`,children:(0,i.jsxs)(`div`,{
+className:`max-w-4xl mx-auto text-center`,children:[(0,i.jsx)(`div`,{
+className:`inline-flex items-center justify-center mb-8`,children:(0,i.jsx)(`span`,{
+className:`px-6 py-2 text-sm font-medium text-[#0F766E] border border-[#14B8A6]/40 rounded-full bg-white/80 backdrop-blur-sm whitespace-nowrap`,children:`Your Trusted Financial Partner Since 2015`}
+)}
+),(0,i.jsxs)(`h1`,{
+className:`text-5xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight`,children:[(0,i.jsx)(`span`,{
+className:`text-[#0F766E]`,children:`Empowering Your`}
+),(0,i.jsx)(`br`,{
+}
+),(0,i.jsx)(`span`,{
+className:`text-[#14B8A6]`,children:`Financial Future`}
+),(0,i.jsx)(`br`,{
+}
+),(0,i.jsx)(`span`,{
+className:`text-[#0F766E]`,children:`with Expert Solutions`}
+)]}
+),(0,i.jsx)(`p`,{
+className:`text-lg md:text-xl text-[#0F766E] mb-12 max-w-2xl mx-auto leading-relaxed font-medium`,children:`Comprehensive IPO services, loan syndication, due diligence, and portfolio valuation to help your business thrive in the competitive financial landscape`}
+),(0,i.jsxs)(`div`,{
+className:`flex flex-col sm:flex-row gap-4 justify-center items-center`,children:[(0,i.jsx)(`a`,{
+href:`#services`,className:`px-8 py-4 bg-[#14B8A6] text-white font-semibold rounded-lg hover:bg-[#0D9488] hover:shadow-lg hover:shadow-[#14B8A6]/30 transition-all duration-300 whitespace-nowrap cursor-pointer w-full sm:w-auto text-center`,children:`Explore Our Services`}
+),(0,i.jsx)(`a`,{
+href:`#contact`,className:`px-8 py-4 bg-white text-[#0F766E] font-semibold rounded-lg border-2 border-[#14B8A6] hover:bg-[#14B8A6] hover:text-white transition-all duration-300 whitespace-nowrap cursor-pointer w-full sm:w-auto text-center`,children:`Get in Touch`}
+)]}
+),(0,i.jsx)(`div`,{
+className:`grid grid-cols-2 md:grid-cols-4 gap-6 mt-20 max-w-3xl mx-auto`,children:[{
+number:`150+`,label:`Happy Clients`}
+,{
+number:`98%`,label:`Success Rate`}
+,{
+number:`15+`,label:`Years Experience`}
+].map((e,t)=>(0,i.jsxs)(`div`,{
+className:`text-center bg-white/60 backdrop-blur-sm rounded-lg p-4`,children:[(0,i.jsx)(`div`,{
+className:`text-3xl md:text-4xl font-bold text-[#14B8A6] mb-2`,children:e.number}
+),(0,i.jsx)(`div`,{
+className:`text-sm text-[#0F766E] font-medium`,children:e.label}
+)]}
+,t))}
+)]}
+)}
+)]}
+)}
+
+function s(){
+return(0,i.jsxs)(`section`,{
+id:`services`,className:`py-24 bg-[#f8f9fb] relative overflow-hidden`,children:[(0,i.jsxs)(`div`,{
+className:`absolute inset-0 opacity-5`,children:[(0,i.jsx)(`div`,{
+className:`absolute top-0 left-0 w-96 h-96 bg-[#14B8A6] rounded-full filter blur-3xl`}
+),(0,i.jsx)(`div`,{
+className:`absolute bottom-0 right-0 w-96 h-96 bg-[#0F766E] rounded-full filter blur-3xl`}
+)]}
+),(0,i.jsxs)(`div`,{
+className:`container mx-auto px-6 lg:px-12 relative z-10`,children:[(0,i.jsxs)(`div`,{
+className:`text-center mb-16`,children:[(0,i.jsx)(`div`,{
+className:`inline-block mb-4`,children:(0,i.jsx)(`span`,{
+className:`text-sm font-semibold text-[#14B8A6] uppercase tracking-wider`,children:`Our Expertise`}
+)}
+),(0,i.jsxs)(`h2`,{
+className:`text-4xl md:text-5xl lg:text-6xl font-bold mb-6`,children:[(0,i.jsx)(`span`,{
+className:`text-gray-900`,children:`Our Core `}
+),(0,i.jsx)(`span`,{
+className:`bg-gradient-to-r from-[#14B8A6] to-[#0D9488] bg-clip-text text-transparent`,children:`Services`}
+)]}
+),(0,i.jsx)(`p`,{
+className:`text-lg text-gray-600 max-w-2xl mx-auto`,children:`Comprehensive financial solutions tailored to meet your business needs and drive sustainable growth`}
+)]}
+),(0,i.jsx)(`div`,{
+className:`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto`,children:[{
+icon:`ri-rocket-line`,title:`IPO Services`,description:`End-to-end IPO advisory services including market assessment, documentation, compliance, and listing support to help your company go public successfully.`,link:`#ipo`,gradient:`from-[#14B8A6] to-[#0D9488]`}
+,{
+icon:`ri-hand-coin-line`,title:`Loan Syndication`,description:`Strategic loan structuring and syndication services connecting businesses with the right lenders for optimal financing solutions.`,link:`#loan-syndication`,gradient:`from-[#14B8A6] to-[#0D9488]`}
+,{
+icon:`ri-search-line`,title:`Due Diligence`,description:`Comprehensive financial, legal, and operational due diligence to mitigate risks and ensure informed investment decisions.`,link:`#due-diligence`,gradient:`from-[#14B8A6] to-[#0D9488]`}
+,{
+icon:`ri-bar-chart-box-line`,title:`Portfolio Valuation`,description:`Accurate portfolio assessment and valuation services using industry-standard methodologies to determine true market value.`,link:`#portfolio-valuation`,gradient:`from-[#14B8A6] to-[#0D9488]`}
+,{
+icon:`ri-file-list-3-line`,title:`Restated Financial Statements`,description:`Certified restatement of historical financials to align with current accounting standards, regulatory formats, and IPO compliance requirements.`,link:`#restated-financials`,gradient:`from-[#14B8A6] to-[#0D9488]`}
+].map((e,t)=>(0,i.jsxs)(`a`,{
+href:e.link,className:`group bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer`,children:[(0,i.jsx)(`div`,{
+className:`mb-6`,children:(0,i.jsx)(`div`,{
+className:`w-16 h-16 rounded-full bg-gradient-to-br ${
+e.gradient}
+ flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300`,children:(0,i.jsx)(`i`,{
+className:`${
+e.icon}
+ text-3xl text-white`}
+)}
+)}
+),(0,i.jsx)(`h3`,{
+className:`text-2xl font-bold text-gray-900 mb-4 group-hover:text-[#14B8A6] transition-colors`,children:e.title}
+),(0,i.jsx)(`p`,{
+className:`text-gray-600 leading-relaxed mb-6`,children:e.description}
+),(0,i.jsxs)(`div`,{
+className:`flex items-center text-[#14B8A6] font-semibold group-hover:gap-3 gap-2 transition-all`,children:[(0,i.jsx)(`span`,{
+children:`Learn More`}
+),(0,i.jsx)(`i`,{
+className:`ri-arrow-right-line text-xl group-hover:translate-x-1 transition-transform`}
+)]}
+)]}
+,t))}
+)]}
+)]}
+)}
+
+function c(){
+return(0,i.jsx)(`section`,{
+id:`ipo`,className:`py-24 bg-white`,children:(0,i.jsx)(`div`,{
+className:`container mx-auto px-6 lg:px-12`,children:(0,i.jsxs)(`div`,{
+className:`grid grid-cols-1 lg:grid-cols-2 gap-16 items-center`,children:[(0,i.jsx)(`div`,{
+className:`relative`,children:(0,i.jsxs)(`div`,{
+className:`relative rounded-3xl overflow-hidden shadow-2xl`,children:[(0,i.jsx)(`img`,{
+src:`https://readdy.ai/api/search-image?query=Modern%20corporate%20office%20with%20financial%20professionals%20analyzing%20IPO%20documents%20and%20stock%20market%20charts%20on%20screens%20with%20simple%20clean%20white%20background%20highlighting%20business%20planning%20and%20growth%20strategy%20professional%20atmosphere%20with%20data%20visualization%20elements&width=800&height=900&seq=ipo-img-001&orientation=portrait`,alt:`IPO Services`,className:`w-full h-full object-cover object-top`}
+),(0,i.jsx)(`div`,{
+className:`absolute inset-0 bg-gradient-to-t from-[#0F766E]/20 to-transparent`}
+)]}
+)}
+),(0,i.jsxs)(`div`,{
+children:[(0,i.jsx)(`div`,{
+className:`mb-4`,children:(0,i.jsx)(`span`,{
+className:`text-sm font-semibold text-[#14B8A6] uppercase tracking-wider`,children:`IPO Advisory`}
+)}
+),(0,i.jsx)(`h2`,{
+className:`text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight`,children:`Take Your Company Public with Confidence`}
+),(0,i.jsx)(`p`,{
+className:`text-lg text-gray-600 mb-8 leading-relaxed`,children:`Our comprehensive IPO services guide you through every step of the public offering process, from initial planning to successful listing and beyond. With deep market knowledge and regulatory expertise, we ensure a smooth transition to the public markets.`}
+),(0,i.jsx)(`div`,{
+className:`grid grid-cols-1 md:grid-cols-2 gap-4 mb-8`,children:[`Market Assessment & Feasibility Analysis`,`Regulatory Compliance & Documentation`,`Valuation & Pricing Strategy`,`Roadshow Management & Investor Relations`,`Post-IPO Support & Compliance`,`Listing Strategy & Exchange Coordination`].map((e,t)=>(0,i.jsxs)(`div`,{
+className:`flex items-start gap-3`,children:[(0,i.jsx)(`div`,{
+className:`w-6 h-6 rounded-full bg-[#14B8A6]/20 flex items-center justify-center flex-shrink-0 mt-1`,children:(0,i.jsx)(`i`,{
+className:`ri-check-line text-[#14B8A6] text-sm`}
+)}
+),(0,i.jsx)(`span`,{
+className:`text-gray-700`,children:e}
+)]}
+,t))}
+),(0,i.jsxs)(`a`,{
+href:`#contact`,className:`inline-flex items-center gap-2 px-8 py-4 bg-[#14B8A6] text-white font-semibold rounded-lg hover:bg-[#0D9488] transition-colors cursor-pointer whitespace-nowrap`,children:[(0,i.jsx)(`span`,{
+children:`Discuss Your IPO`}
+),(0,i.jsx)(`i`,{
+className:`ri-arrow-right-line text-xl`}
+)]}
+)]}
+)]}
+)}
+)}
+)}
+
+function l(){
+return(0,i.jsx)(`section`,{
+id:`loan-syndication`,className:`py-24 bg-[#f8f9fb]`,children:(0,i.jsx)(`div`,{
+className:`container mx-auto px-6 lg:px-12`,children:(0,i.jsxs)(`div`,{
+className:`grid grid-cols-1 lg:grid-cols-2 gap-16 items-center`,children:[(0,i.jsxs)(`div`,{
+className:`order-2 lg:order-1`,children:[(0,i.jsx)(`div`,{
+className:`mb-4`,children:(0,i.jsx)(`span`,{
+className:`text-sm font-semibold text-[#14B8A6] uppercase tracking-wider`,children:`Financing Solutions`}
+)}
+),(0,i.jsx)(`h2`,{
+className:`text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight`,children:`Structured Loan Syndication for Your Growth`}
+),(0,i.jsx)(`p`,{
+className:`text-lg text-gray-600 mb-10 leading-relaxed`,children:`Access capital efficiently through our loan syndication services. We connect businesses with a network of financial institutions, structuring optimal financing solutions that align with your growth objectives and repayment capabilities.`}
+),(0,i.jsx)(`div`,{
+className:`grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8`,children:[{
+icon:`ri-funds-line`,title:`Optimal Financing`,description:`Secure the best possible terms and interest rates through our extensive lender network`}
+,{
+icon:`ri-team-line`,title:`Expert Negotiation`,description:`Leverage our relationships and expertise to negotiate favorable loan structures`}
+,{
+icon:`ri-time-line`,title:`Quick Processing`,description:`Streamlined processes ensure faster loan approval and disbursement timelines`}
+,{
+icon:`ri-shield-check-line`,title:`Risk Mitigation`,description:`Comprehensive risk assessment and management throughout the syndication process`}
+].map((e,t)=>(0,i.jsxs)(`div`,{
+className:`bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-shadow`,children:[(0,i.jsx)(`div`,{
+className:`w-12 h-12 rounded-lg bg-gradient-to-br from-[#14B8A6] to-[#0D9488] flex items-center justify-center mb-4`,children:(0,i.jsx)(`i`,{
+className:`${
+e.icon}
+ text-2xl text-white`}
+)}
+),(0,i.jsx)(`h3`,{
+className:`text-lg font-bold text-gray-900 mb-2`,children:e.title}
+),(0,i.jsx)(`p`,{
+className:`text-sm text-gray-600`,children:e.description}
+)]}
+,t))}
+),(0,i.jsxs)(`a`,{
+href:`#contact`,className:`inline-flex items-center gap-2 px-8 py-4 bg-[#14B8A6] text-white font-semibold rounded-lg hover:bg-[#0D9488] transition-colors cursor-pointer whitespace-nowrap`,children:[(0,i.jsx)(`span`,{
+children:`Explore Financing Options`}
+),(0,i.jsx)(`i`,{
+className:`ri-arrow-right-line text-xl`}
+)]}
+)]}
+),(0,i.jsx)(`div`,{
+className:`order-1 lg:order-2 relative`,children:(0,i.jsxs)(`div`,{
+className:`relative rounded-3xl overflow-hidden shadow-2xl`,children:[(0,i.jsx)(`img`,{
+src:`https://readdy.ai/api/search-image?query=Professional%20business%20meeting%20with%20executives%20discussing%20loan%20documents%20and%20financial%20agreements%20in%20modern%20office%20with%20clean%20white%20background%20highlighting%20partnership%20and%20financial%20collaboration%20corporate%20setting%20with%20document%20signing%20scene%20professional%20lighting&width=800&height=900&seq=loan-img-001&orientation=portrait`,alt:`Loan Syndication`,className:`w-full h-full object-cover object-top`}
+),(0,i.jsx)(`div`,{
+className:`absolute inset-0 bg-gradient-to-t from-[#0F766E]/20 to-transparent`}
+)]}
+)}
+)]}
+)}
+)}
+)}
+
+function u(){
+return(0,i.jsx)(`section`,{
+id:`due-diligence`,className:`py-24 bg-white`,children:(0,i.jsxs)(`div`,{
+className:`container mx-auto px-6 lg:px-12`,children:[(0,i.jsxs)(`div`,{
+className:`text-center mb-16`,children:[(0,i.jsx)(`div`,{
+className:`inline-block mb-4`,children:(0,i.jsx)(`span`,{
+className:`text-sm font-semibold text-[#14B8A6] uppercase tracking-wider`,children:`Risk Mitigation`}
+)}
+),(0,i.jsx)(`h2`,{
+className:`text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight`,children:`Comprehensive Due Diligence Services`}
+),(0,i.jsx)(`p`,{
+className:`text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed`,children:`Make informed investment decisions with our thorough due diligence process. We conduct detailed investigations across financial, legal, operational, and commercial aspects to identify risks and opportunities.`}
+)]}
+),(0,i.jsx)(`div`,{
+className:`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16`,children:[{
+icon:`ri-file-chart-line`,title:`Financial Due Diligence`,description:`Comprehensive analysis of financial statements, cash flows, and accounting practices`}
+,{
+icon:`ri-scales-line`,title:`Legal Due Diligence`,description:`Review of contracts, compliance, litigation risks, and regulatory matters`}
+,{
+icon:`ri-settings-3-line`,title:`Operational Due Diligence`,description:`Assessment of business operations, processes, and management capabilities`}
+,{
+icon:`ri-calendar-check-line`,title:`Tax Due Diligence`,description:`Evaluation of tax compliance, liabilities, and optimization opportunities`}
+,{
+icon:`ri-lightbulb-line`,title:`Commercial Due Diligence`,description:`Market analysis, competitive positioning, and growth potential assessment`}
+,{
+icon:`ri-file-shield-line`,title:`Compliance Due Diligence`,description:`Verification of regulatory adherence and industry-specific requirements`}
+].map((e,t)=>(0,i.jsxs)(`div`,{
+className:`group bg-[#f8f9fb] rounded-2xl p-8 hover:bg-white hover:shadow-xl transition-all duration-300`,children:[(0,i.jsx)(`div`,{
+className:`w-14 h-14 rounded-xl bg-gradient-to-br from-[#14B8A6] to-[#0D9488] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`,children:(0,i.jsx)(`i`,{
+className:`${
+e.icon}
+ text-2xl text-white`}
+)}
+),(0,i.jsx)(`h3`,{
+className:`text-xl font-bold text-gray-900 mb-3`,children:e.title}
+),(0,i.jsx)(`p`,{
+className:`text-gray-600`,children:e.description}
+)]}
+,t))}
+),(0,i.jsxs)(`div`,{
+className:`bg-gradient-to-br from-[#0F766E] to-[#14B8A6] rounded-3xl p-12 text-center`,children:[(0,i.jsx)(`h3`,{
+className:`text-3xl font-bold text-white mb-4`,children:`Need a Thorough Due Diligence Report?`}
+),(0,i.jsx)(`p`,{
+className:`text-gray-100 text-lg mb-8 max-w-2xl mx-auto`,children:`Our experienced team delivers detailed, actionable insights to support your investment and acquisition decisions`}
+),(0,i.jsxs)(`a`,{
+href:`#contact`,className:`inline-flex items-center gap-2 px-8 py-4 bg-white text-[#0F766E] font-semibold rounded-lg hover:bg-gray-100 transition-colors cursor-pointer whitespace-nowrap`,children:[(0,i.jsx)(`span`,{
+children:`Request Due Diligence`}
+),(0,i.jsx)(`i`,{
+className:`ri-arrow-right-line text-xl`}
+)]}
+)]}
+)]}
+)}
+)}
+
+function d(){
+return(0,i.jsx)(`section`,{
+id:`restated-financials`,className:`py-24 bg-white`,children:(0,i.jsxs)(`div`,{
+className:`container mx-auto px-6 lg:px-12`,children:[(0,i.jsxs)(`div`,{
+className:`text-center mb-16`,children:[(0,i.jsx)(`div`,{
+className:`inline-block mb-4`,children:(0,i.jsx)(`span`,{
+className:`text-sm font-semibold text-[#14B8A6] uppercase tracking-wider`,children:`Financial Restatement`}
+)}
+),(0,i.jsx)(`h2`,{
+className:`text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight`,children:`Restated Financial Statements`}
+),(0,i.jsx)(`p`,{
+className:`text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed`,children:`We prepare certified restated financial statements that meet the stringent requirements of SEBI, stock exchanges, and institutional investors. Whether you are planning an IPO, raising funds, or complying with regulatory mandates, our restatement services ensure accuracy, consistency, and full regulatory alignment.`}
+)]}
+),(0,i.jsx)(`div`,{
+className:`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16`,children:[{
+icon:`ri-archive-drawer-line`,title:`Historical Financial Restatement`,description:`Recompilation and restatement of past financial statements to comply with Ind AS, IFRS, or Schedule III formats.`}
+,{
+icon:`ri-shield-check-line`,title:`Audit & Certification`,description:`Independent audit and certification of restated financials by qualified Chartered Accountants for regulatory acceptance.`}
+,{
+icon:`ri-file-paper-2-line`,title:`IPO Compliance Formatting`,description:`Preparation of financials in the exact format required by SEBI and stock exchanges for DRHP and RHP filings.`}
+,{
+icon:`ri-calculator-line`,title:`Adjustment & Reconciliation`,description:`Identification and quantification of material adjustments needed between original and restated figures.`}
+,{
+icon:`ri-scales-3-line`,title:`Accounting Standard Alignment`,description:`Restatement to align with current accounting policies, estimates, and applicable accounting standards consistently.`}
+,{
+icon:`ri-file-search-line`,title:`Regulatory Review Support`,description:`End-to-end support during SEBI, MCA, and exchange reviews with clarifications on restatement methodology.`}
+].map((e,t)=>(0,i.jsxs)(`div`,{
+className:`group bg-[#f8f9fb] rounded-2xl p-8 hover:bg-white hover:shadow-xl transition-all duration-300`,children:[(0,i.jsx)(`div`,{
+className:`w-14 h-14 rounded-xl bg-gradient-to-br from-[#14B8A6] to-[#0D9488] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`,children:(0,i.jsx)(`i`,{
+className:`${
+e.icon}
+ text-2xl text-white`}
+)}
+),(0,i.jsx)(`h3`,{
+className:`text-xl font-bold text-gray-900 mb-3`,children:e.title}
+),(0,i.jsx)(`p`,{
+className:`text-gray-600`,children:e.description}
+)]}
+,t))}
+),(0,i.jsxs)(`div`,{
+className:`bg-gradient-to-br from-[#0F766E] to-[#14B8A6] rounded-3xl p-12 text-center`,children:[(0,i.jsx)(`h3`,{
+className:`text-3xl font-bold text-white mb-4`,children:`Need Certified Restated Financials?`}
+),(0,i.jsx)(`p`,{
+className:`text-gray-100 text-lg mb-8 max-w-2xl mx-auto`,children:`Our Chartered Accountants ensure your financials are restated with precision and fully compliant with regulatory requirements.`}
+),(0,i.jsxs)(`a`,{
+href:`#contact`,className:`inline-flex items-center gap-2 px-8 py-4 bg-white text-[#0F766E] font-semibold rounded-lg hover:bg-gray-100 transition-colors cursor-pointer whitespace-nowrap`,children:[(0,i.jsx)(`span`,{
+children:`Get Restatement Quote`}
+),(0,i.jsx)(`i`,{
+className:`ri-arrow-right-line text-xl`}
+)]}
+)]}
+)]}
+)}
+)}
+
+function f(){
+return(0,i.jsx)(`section`,{
+id:`portfolio-valuation`,className:`py-24 bg-[#f8f9fb]`,children:(0,i.jsx)(`div`,{
+className:`container mx-auto px-6 lg:px-12`,children:(0,i.jsxs)(`div`,{
+className:`grid grid-cols-1 lg:grid-cols-2 gap-16 items-center`,children:[(0,i.jsxs)(`div`,{
+children:[(0,i.jsx)(`div`,{
+className:`mb-4`,children:(0,i.jsx)(`span`,{
+className:`text-sm font-semibold text-[#14B8A6] uppercase tracking-wider`,children:`Valuation Services`}
+)}
+),(0,i.jsx)(`h2`,{
+className:`text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight`,children:`Accurate Portfolio Valuation & Assessment`}
+),(0,i.jsx)(`p`,{
+className:`text-lg text-gray-600 mb-8 leading-relaxed`,children:`Get precise valuation of your investment portfolio, business assets, or companies using industry-leading methodologies. Our expert valuations support strategic decisions, fundraising, M&A transactions, and financial reporting.`}
+),(0,i.jsxs)(`div`,{
+className:`mb-8`,children:[(0,i.jsx)(`h3`,{
+className:`text-xl font-bold text-gray-900 mb-4`,children:`Valuation Methodologies`}
+),(0,i.jsx)(`div`,{
+className:`grid grid-cols-1 sm:grid-cols-2 gap-3`,children:[`Discounted Cash Flow (DCF) Analysis`,`Comparable Company Analysis`,`Precedent Transaction Analysis`,`Asset-Based Valuation`,`Market Multiple Approach`,`Real Options Valuation`].map((e,t)=>(0,i.jsxs)(`div`,{
+className:`flex items-start gap-3`,children:[(0,i.jsx)(`div`,{
+className:`w-5 h-5 rounded-full bg-[#14B8A6] flex items-center justify-center flex-shrink-0 mt-0.5`,children:(0,i.jsx)(`i`,{
+className:`ri-check-line text-white text-xs`}
+)}
+),(0,i.jsx)(`span`,{
+className:`text-gray-700 text-sm`,children:e}
+)]}
+,t))}
+)]}
+),(0,i.jsxs)(`div`,{
+className:`mb-8`,children:[(0,i.jsx)(`h3`,{
+className:`text-xl font-bold text-gray-900 mb-4`,children:`Industries We Serve`}
+),(0,i.jsx)(`div`,{
+className:`flex flex-wrap gap-2`,children:[`Technology & Software`,`Manufacturing`,`Real Estate`,`Healthcare`,`Financial Services`,`E-commerce & Retail`,`Energy & Resources`,`Infrastructure`].map((e,t)=>(0,i.jsx)(`span`,{
+className:`px-4 py-2 bg-white text-gray-700 text-sm rounded-full border border-gray-200 hover:border-[#14B8A6] hover:text-[#14B8A6] transition-colors whitespace-nowrap`,children:e}
+,t))}
+)]}
+),(0,i.jsxs)(`a`,{
+href:`#contact`,className:`inline-flex items-center gap-2 px-8 py-4 bg-[#14B8A6] text-white font-semibold rounded-lg hover:bg-[#0D9488] transition-colors cursor-pointer whitespace-nowrap`,children:[(0,i.jsx)(`span`,{
+children:`Get Valuation Quote`}
+),(0,i.jsx)(`i`,{
+className:`ri-arrow-right-line text-xl`}
+)]}
+)]}
+),(0,i.jsxs)(`div`,{
+className:`relative`,children:[(0,i.jsxs)(`div`,{
+className:`relative rounded-3xl overflow-hidden shadow-2xl`,children:[(0,i.jsx)(`img`,{
+src:`https://readdy.ai/api/search-image?query=Professional%20financial%20analyst%20examining%20portfolio%20documents%20and%20valuation%20charts%20on%20tablet%20with%20clean%20white%20background%20corporate%20business%20environment%20highlighting%20data%20analysis%20and%20investment%20assessment%20modern%20office%20setting%20with%20financial%20reports&width=800&height=900&seq=portfolio-img-001&orientation=portrait`,alt:`Portfolio Valuation`,className:`w-full h-full object-cover object-top`}
+),(0,i.jsx)(`div`,{
+className:`absolute inset-0 bg-gradient-to-t from-[#0F766E]/20 to-transparent`}
+)]}
+),(0,i.jsx)(`div`,{
+className:`absolute -bottom-8 -left-8 bg-white rounded-2xl shadow-2xl p-6`,children:(0,i.jsxs)(`div`,{
+className:`flex items-center gap-4`,children:[(0,i.jsx)(`div`,{
+className:`w-14 h-14 rounded-full bg-[#14B8A6] flex items-center justify-center`,children:(0,i.jsx)(`i`,{
+className:`ri-briefcase-line text-2xl text-white`}
+)}
+),(0,i.jsxs)(`div`,{
+children:[(0,i.jsx)(`div`,{
+className:`text-3xl font-bold text-gray-900`,children:`150+`}
+),(0,i.jsx)(`div`,{
+className:`text-sm text-gray-600`,children:`Valuations Done`}
+)]}
+)]}
+)}
+),(0,i.jsx)(`div`,{
+className:`absolute -top-8 -right-8 bg-white rounded-2xl shadow-2xl p-6 max-w-xs`,children:(0,i.jsxs)(`div`,{
+className:`flex items-center gap-4`,children:[(0,i.jsx)(`div`,{
+className:`w-14 h-14 rounded-full bg-[#0F766E] flex items-center justify-center`,children:(0,i.jsx)(`i`,{
+className:`ri-award-line text-2xl text-white`}
+)}
+),(0,i.jsxs)(`div`,{
+children:[(0,i.jsx)(`div`,{
+className:`text-3xl font-bold text-gray-900`,children:`100%`}
+),(0,i.jsx)(`div`,{
+className:`text-sm text-gray-600`,children:`Accuracy Rate`}
+)]}
+)]}
+)}
+)]}
+)]}
+)}
+)}
+)}
+
+function p(){
+let[e,t]=(0,r.useState)(0);
+return(0,i.jsxs)(`section`,{
+className:`py-24 bg-gradient-to-br from-[#fefbf3] to-white relative overflow-hidden`,children:[(0,i.jsx)(`div`,{
+className:`absolute top-0 left-0 w-64 h-64 bg-[#d4af37]/5 rounded-full filter blur-3xl`}
+),(0,i.jsx)(`div`,{
+className:`absolute bottom-0 right-0 w-64 h-64 bg-[#1a2332]/5 rounded-full filter blur-3xl`}
+)]}
+)}
+
+function m(){
+return(0,i.jsxs)(`section`,{
+id:`contact`,className:`py-24 bg-[#1a2332] relative overflow-hidden`,children:[(0,i.jsxs)(`div`,{
+className:`absolute inset-0 opacity-10`,children:[(0,i.jsx)(`div`,{
+className:`absolute top-10 left-10 w-32 h-32 border border-[#d4af37] rounded-lg transform rotate-12`}
+),(0,i.jsx)(`div`,{
+className:`absolute top-40 right-20 w-24 h-24 border border-[#d4af37] rounded-full`}
+),(0,i.jsx)(`div`,{
+className:`absolute bottom-20 left-1/4 w-40 h-40 border border-[#d4af37] rounded-lg transform -rotate-12`}
+),(0,i.jsx)(`div`,{
+className:`absolute bottom-40 right-1/3 w-20 h-20 border border-[#d4af37] rounded-full`}
+)]}
+),(0,i.jsx)(`div`,{
+className:`container mx-auto px-6 lg:px-12 relative z-10`,children:(0,i.jsxs)(`div`,{
+className:`max-w-4xl mx-auto text-center`,children:[(0,i.jsx)(`h2`,{
+className:`text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight`,children:`Ready to Elevate Your Financial Strategy?`}
+),(0,i.jsx)(`p`,{
+className:`text-xl text-gray-300 mb-10 max-w-2xl mx-auto`,children:`Schedule a complimentary consultation with our experts today`}
+),(0,i.jsx)(`div`,{
+className:`mb-8`,children:(0,i.jsxs)(`a`,{
+href:`mailto:info@shreeshyammoneycare.com`,className:`inline-flex items-center gap-3 px-10 py-5 bg-[#d4af37] text-[#1a2332] text-lg font-bold rounded-lg hover:bg-[#c09d2f] transition-all hover:scale-105 cursor-pointer shadow-2xl shadow-[#d4af37]/20 whitespace-nowrap`,children:[(0,i.jsx)(`i`,{
+className:`ri-calendar-line text-2xl`}
+),(0,i.jsx)(`span`,{
+children:`Schedule Consultation`}
+)]}
+)}
+),(0,i.jsxs)(`div`,{
+className:`flex flex-wrap justify-center items-center gap-4 text-sm text-gray-400`,children:[(0,i.jsxs)(`div`,{
+className:`flex items-center gap-2`,children:[(0,i.jsx)(`i`,{
+className:`ri-check-line text-[#d4af37]`}
+),(0,i.jsx)(`span`,{
+children:`No obligation`}
+)]}
+),(0,i.jsx)(`span`,{
+className:`text-[#d4af37]`,children:`•`}
+),(0,i.jsxs)(`div`,{
+className:`flex items-center gap-2`,children:[(0,i.jsx)(`i`,{
+className:`ri-check-line text-[#d4af37]`}
+),(0,i.jsx)(`span`,{
+children:`Confidential`}
+)]}
+),(0,i.jsx)(`span`,{
+className:`text-[#d4af37]`,children:`•`}
+),(0,i.jsxs)(`div`,{
+className:`flex items-center gap-2`,children:[(0,i.jsx)(`i`,{
+className:`ri-check-line text-[#d4af37]`}
+),(0,i.jsx)(`span`,{
+children:`Expert guidance`}
+)]}
+)]}
+),(0,i.jsx)(`div`,{
+className:`mt-16 pt-12 border-t border-gray-700`,children:(0,i.jsxs)(`div`,{
+className:`grid grid-cols-1 md:grid-cols-3 gap-8`,children:[(0,i.jsxs)(`div`,{
+className:`text-center`,children:[(0,i.jsx)(`div`,{
+className:`w-12 h-12 bg-[#d4af37] rounded-full flex items-center justify-center mx-auto mb-4`,children:(0,i.jsx)(`i`,{
+className:`ri-phone-line text-2xl text-[#1a2332]`}
+)}
+),(0,i.jsx)(`div`,{
+className:`text-white font-semibold mb-1`,children:`Call Us`}
+),(0,i.jsx)(`a`,{
+href:`tel:+919785658298`,className:`text-gray-300 hover:text-[#d4af37] transition-colors cursor-pointer`,children:`+91 97856 58298`}
+)]}
+),(0,i.jsxs)(`div`,{
+className:`text-center`,children:[(0,i.jsx)(`div`,{
+className:`w-12 h-12 bg-[#d4af37] rounded-full flex items-center justify-center mx-auto mb-4`,children:(0,i.jsx)(`i`,{
+className:`ri-mail-line text-2xl text-[#1a2332]`}
+)}
+),(0,i.jsx)(`div`,{
+className:`text-white font-semibold mb-1`,children:`Email Us`}
+),(0,i.jsx)(`a`,{
+href:`mailto:casunilsolawala@gmail.com`,className:`text-gray-300 hover:text-[#d4af37] transition-colors cursor-pointer`,children:`casunilsolawala@gmail.com`}
+)]}
+),(0,i.jsxs)(`div`,{
+className:`text-center`,children:[(0,i.jsx)(`div`,{
+className:`w-12 h-12 bg-[#d4af37] rounded-full flex items-center justify-center mx-auto mb-4`,children:(0,i.jsx)(`i`,{
+className:`ri-map-pin-line text-2xl text-[#1a2332]`}
+)}
+),(0,i.jsx)(`div`,{
+className:`text-white font-semibold mb-1`,children:`Visit Us`}
+),(0,i.jsx)(`p`,{
+className:`text-gray-300`,children:`Mumbai, Maharashtra, India`}
+)]}
+)]}
+)}
+)]}
+)}
+)]}
+)}
+
+function h(){
+let[e,t]=(0,r.useState)(``),[n,a]=(0,r.useState)(!1);
+return(0,i.jsxs)(`footer`,{
+className:`bg-[#0F766E] text-white`,children:[(0,i.jsx)(`div`,{
+className:`container mx-auto px-6 lg:px-12 py-14`,children:(0,i.jsxs)(`div`,{
+className:`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10`,children:[(0,i.jsxs)(`div`,{
+className:`lg:col-span-1`,children:[(0,i.jsxs)(`div`,{
+className:`flex items-center gap-3 mb-4`,children:[(0,i.jsx)(`div`,{
+className:`w-14 h-14 rounded-xl bg-white p-1.5 flex items-center justify-center shrink-0 shadow-md`,children:(0,i.jsx)(`img`,{
+src:`https://static.readdy.ai/image/a8f77b3e64e67f5f94074cdf9b9d0f44/67962d6029db30f87429d5d899091b69.jpeg`,alt:`Shree Shyam Money Care Logo`,className:`w-full h-full object-contain rounded-lg`}
+)}
+),(0,i.jsxs)(`span`,{
+className:`font-bold text-lg leading-tight text-white`,children:[`Shree Shyam`,(0,i.jsx)(`br`,{
+}
+),(0,i.jsx)(`span`,{
+className:`text-teal-200 font-semibold text-sm`,children:`Money Care`}
+)]}
+)]}
+),(0,i.jsx)(`p`,{
+className:`text-teal-100 text-sm leading-relaxed mb-5`,children:`Your trusted partner for IPO advisory, loan syndication, due diligence, and portfolio valuation services.`}
+),(0,i.jsx)(`div`,{
+className:`flex items-center gap-3`,children:[`ri-facebook-fill`,`ri-twitter-fill`,`ri-linkedin-fill`,`ri-instagram-line`].map(e=>(0,i.jsx)(`a`,{
+href:`#`,className:`w-8 h-8 flex items-center justify-center rounded-full bg-white/10 hover:bg-[#14B8A6] transition-colors duration-200`,children:(0,i.jsx)(`i`,{
+className:`${
+e}
+ text-sm`}
+)}
+,e))}
+)]}
+),(0,i.jsxs)(`div`,{
+children:[(0,i.jsx)(`h4`,{
+className:`font-semibold text-white text-base mb-4`,children:`Services`}
+),(0,i.jsx)(`ul`,{
+className:`space-y-2`,children:[`IPO Advisory`,`Loan Syndication`,`Due Diligence`,`Portfolio Valuation`,`Financial Consulting`,`Investment Planning`].map(e=>(0,i.jsx)(`li`,{
+children:(0,i.jsxs)(`a`,{
+href:`#services`,className:`text-teal-100 text-sm hover:text-white transition-colors duration-200 flex items-center gap-2`,children:[(0,i.jsx)(`i`,{
+className:`ri-arrow-right-s-line text-[#14B8A6]`}
+),e]}
+)}
+,e))}
+)]}
+),(0,i.jsxs)(`div`,{
+children:[(0,i.jsx)(`h4`,{
+className:`font-semibold text-white text-base mb-4`,children:`Company`}
+),(0,i.jsx)(`ul`,{
+className:`space-y-2`,children:[{
+label:`About Us`,href:`#home`}
+,{
+label:`Services`,href:`#services`}
+,{
+label:`Testimonials`,href:`#testimonials`}
+,{
+label:`Contact`,href:`#contact`}
+].map(e=>(0,i.jsx)(`li`,{
+children:(0,i.jsxs)(`a`,{
+href:e.href,className:`text-teal-100 text-sm hover:text-white transition-colors duration-200 flex items-center gap-2`,children:[(0,i.jsx)(`i`,{
+className:`ri-arrow-right-s-line text-[#14B8A6]`}
+),e.label]}
+)}
+,e.label))}
+),(0,i.jsx)(`h4`,{
+className:`font-semibold text-white text-base mt-6 mb-3`,children:`Contact`}
+),(0,i.jsxs)(`div`,{
+className:`space-y-3`,children:[(0,i.jsxs)(`div`,{
+className:`flex items-start gap-3`,children:[(0,i.jsx)(`div`,{
+className:`w-8 h-8 rounded bg-white/10 flex items-center justify-center shrink-0`,children:(0,i.jsx)(`i`,{
+className:`ri-mail-line text-white`}
+)}
+),(0,i.jsxs)(`div`,{
+children:[(0,i.jsx)(`p`,{
+className:`text-white/60 text-xs mb-1`,children:`Email`}
+),(0,i.jsx)(`a`,{
+href:`mailto:casunilsolawala@gmail.com`,className:`text-white hover:text-teal-200 transition-colors text-sm`,children:`casunilsolawala@gmail.com`}
+)]}
+)]}
+),(0,i.jsxs)(`div`,{
+className:`flex items-start gap-3`,children:[(0,i.jsx)(`div`,{
+className:`w-8 h-8 rounded bg-white/10 flex items-center justify-center shrink-0`,children:(0,i.jsx)(`i`,{
+className:`ri-phone-line text-white`}
+)}
+),(0,i.jsxs)(`div`,{
+children:[(0,i.jsx)(`p`,{
+className:`text-white/60 text-xs mb-1`,children:`Phone`}
+),(0,i.jsx)(`a`,{
+href:`tel:9785658298`,className:`text-white hover:text-teal-200 transition-colors text-sm`,children:`+91 97856 58298`}
+)]}
+)]}
+),(0,i.jsxs)(`div`,{
+className:`flex items-start gap-2 text-teal-100 text-sm`,children:[(0,i.jsx)(`i`,{
+className:`ri-map-pin-line text-[#14B8A6] mt-0.5`}
+),(0,i.jsx)(`span`,{
+children:`India`}
+)]}
+)]}
+)]}
+),(0,i.jsxs)(`div`,{
+children:[(0,i.jsx)(`h4`,{
+className:`font-semibold text-white text-base mb-4`,children:`Newsletter`}
+),(0,i.jsx)(`p`,{
+className:`text-teal-100 text-sm mb-4`,children:`Stay updated with the latest financial insights and market news.`}
+),n?(0,i.jsxs)(`div`,{
+className:`flex items-center gap-2 text-teal-200 text-sm bg-white/10 rounded-lg px-4 py-3`,children:[(0,i.jsx)(`i`,{
+className:`ri-checkbox-circle-line text-lg`}
+),(0,i.jsx)(`span`,{
+children:`Thank you for subscribing!`}
+)]}
+):(0,i.jsxs)(`form`,{
+onSubmit:n=>{
+n.preventDefault(),e.trim()&&(a(!0),t(``))}
+,className:`flex flex-col gap-2`,children:[(0,i.jsx)(`input`,{
+type:`email`,value:e,onChange:e=>t(e.target.value),placeholder:`Your email address`,required:!0,className:`w-full px-4 py-2.5 rounded-lg bg-white/10 border border-white/20 text-white placeholder-teal-200 text-sm focus:outline-none focus:border-[#14B8A6]`}
+),(0,i.jsx)(`button`,{
+type:`submit`,className:`w-full px-4 py-2.5 bg-[#14B8A6] hover:bg-teal-400 text-white text-sm font-semibold rounded-lg transition-colors duration-200`,children:`Subscribe`}
+)]}
+)]}
+)]}
+)}
+),(0,i.jsx)(`div`,{
+className:`border-t border-white/10`,children:(0,i.jsxs)(`div`,{
+className:`container mx-auto px-6 lg:px-12 py-4 flex flex-col sm:flex-row items-center justify-between gap-2`,children:[(0,i.jsxs)(`p`,{
+className:`text-teal-200 text-xs`,children:[`© `,new Date().getFullYear(),` Shree Shyam Money Care. All rights reserved.`]}
+),(0,i.jsxs)(`p`,{
+className:`text-teal-200 text-xs`,children:[`Designed with `,(0,i.jsx)(`span`,{
+className:`text-red-400`,children:`♥`}
+),` for financial excellence`]}
+)]}
+)}
+)]}
+)}
+
+function g(){
+return(0,i.jsxs)(`div`,{
+className:`min-h-screen bg-white`,children:[(0,i.jsx)(o,{
+}
+),(0,i.jsx)(s,{
+}
+),(0,i.jsx)(c,{
+}
+),(0,i.jsx)(l,{
+}
+),(0,i.jsx)(u,{
+}
+),(0,i.jsx)(d,{
+}
+),(0,i.jsx)(f,{
+}
+),(0,i.jsx)(p,{
+}
+),(0,i.jsx)(m,{
+}
+),(0,i.jsx)(h,{
+}
+)]}
+)}
+export{
+g as default}
+;
+
+//# sourceMappingURL=page-Dph9fP2l.js.map
