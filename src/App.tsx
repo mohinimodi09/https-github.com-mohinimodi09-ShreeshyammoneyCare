@@ -16,7 +16,7 @@ import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, ShieldCheck, Sparkles, AlertCircle, ArrowUpRight } from 'lucide-react';
-import logoFallback from '@/assets/images/Logo.png';
+import logoFallback from '@/src/assets/images/Logo.png';
 export default function App() {
   const [selectedService, setSelectedService] = useState('IPO Listing & Advisory');
   const [checklistExtraNote, setChecklistExtraNote] = useState('');

@@ -5,7 +5,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Landmark, CalendarCheck, FileSliders } from 'lucide-react';
-import logoFallback from '@/assets/images/Logo.png';
+import logoFallback from '@/src/assets/images/Logo.png';
 interface NavbarProps {
   onNavigate: (sectionId: string) => void;
   consultationCount: number;

@@ -5,7 +5,7 @@
 
 import React from 'react';
 import { Landmark, Shield, Copyright, Globe } from 'lucide-react';
-import logoFallback from '@/assets/images/Logo.png';
+import logoFallback from '@/src/assets/images/Logo.png';
 interface FooterProps {
   onNavigate: (sectionId: string) => void;
   onLogoClick?: () => void;

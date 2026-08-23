@@ -5,7 +5,7 @@
 
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import logoFallback from '@/assets/images/Logo.png';
+import logoFallback from '@/src/assets/images/Logo.png';
 import { 
   Building2, 
   Settings, 
