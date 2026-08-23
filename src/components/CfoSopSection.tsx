@@ -180,7 +180,7 @@ export default function CfoSopSection({ onTriggerContact }: CfoSopSectionProps) 
               <img
                 src="/src/assets/images/shree_shyam_logo_1780747844943.png"
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = "/src/assets/images/ChatGPT Image Jun 6, 2026, 05_48_55 PM.png";
+                  (e.target as HTMLImageElement).src = "/src/assets/images/Logo.png";
                 }}
                 alt="Virtual CFO Service & SOP Seals"
                 className="w-1/2 object-contain group-hover:scale-105 transition-transform duration-700 pointer-events-none opacity-90 filter brightness-95"

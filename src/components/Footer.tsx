@@ -34,7 +34,7 @@ export default function Footer({ onNavigate, onLogoClick }: FooterProps) {
                 <img
                   src="/src/assets/images/shree_shyam_logo_1780747844943.png"
                   onError={(e) => {
-                    (e.target as HTMLImageElement).src = "/src/assets/images/ChatGPT Image Jun 6, 2026, 05_48_55 PM.png";
+                    (e.target as HTMLImageElement).src = "/src/assets/images/Logo.png";
                   }}
                   alt="Shree Shyam Money Care Logo"
                   className="w-full h-full object-contain rounded-full"
