@@ -16,7 +16,7 @@ import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, ShieldCheck, Sparkles, AlertCircle, ArrowUpRight } from 'lucide-react';
-
+import logoFallback from '@/assets/images/Logo.png';
 export default function App() {
   const [selectedService, setSelectedService] = useState('IPO Listing & Advisory');
   const [checklistExtraNote, setChecklistExtraNote] = useState('');
@@ -146,7 +146,7 @@ export default function App() {
                     <img
                       src="/src/assets/images/shree_shyam_logo_1780747844943.png"
                       onError={(e) => {
-                        (e.target as HTMLImageElement).src = "/src/assets/images/Logo.png";
+                        (e.target as HTMLImageElement).src =logoFallback;
                       }}
                       alt="Shree Shyam Money Care Official Seal"
                       className="w-full h-full object-contain rounded-full pointer-events-none group-hover:scale-105 transition-transform duration-700"

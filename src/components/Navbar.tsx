@@ -5,7 +5,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Landmark, CalendarCheck, FileSliders } from 'lucide-react';
-
+import logoFallback from '@/assets/images/Logo.png';
 interface NavbarProps {
   onNavigate: (sectionId: string) => void;
   consultationCount: number;
@@ -70,7 +70,7 @@ export default function Navbar({ onNavigate, consultationCount, onLogoClick }: N
               <img
                 src="/src/assets/images/shree_shyam_logo_1780747844943.png"
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = "/src/assets/images/Logo.png";
+                  (e.target as HTMLImageElement).src =logoFallback;
                 }}
                 alt="Shree Shyam Money Care Logo"
                 className="w-full h-full object-contain rounded-full"

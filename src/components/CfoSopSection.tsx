@@ -5,6 +5,7 @@
 
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
+import logoFallback from '@/assets/images/Logo.png';
 import { 
   Building2, 
   Settings, 
@@ -180,7 +181,7 @@ export default function CfoSopSection({ onTriggerContact }: CfoSopSectionProps) 
               <img
                 src="/src/assets/images/shree_shyam_logo_1780747844943.png"
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = "/src/assets/images/Logo.png";
+                  (e.target as HTMLImageElement).src =logoFallback;
                 }}
                 alt="Virtual CFO Service & SOP Seals"
                 className="w-1/2 object-contain group-hover:scale-105 transition-transform duration-700 pointer-events-none opacity-90 filter brightness-95"

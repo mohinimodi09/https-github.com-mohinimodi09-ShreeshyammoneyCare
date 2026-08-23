@@ -5,7 +5,7 @@
 
 import React from 'react';
 import { Landmark, Shield, Copyright, Globe } from 'lucide-react';
-
+import logoFallback from '@/assets/images/Logo.png';
 interface FooterProps {
   onNavigate: (sectionId: string) => void;
   onLogoClick?: () => void;
@@ -34,7 +34,7 @@ export default function Footer({ onNavigate, onLogoClick }: FooterProps) {
                 <img
                   src="/src/assets/images/shree_shyam_logo_1780747844943.png"
                   onError={(e) => {
-                    (e.target as HTMLImageElement).src = "/src/assets/images/Logo.png";
+                    (e.target as HTMLImageElement).src = logoFallback;
                   }}
                   alt="Shree Shyam Money Care Logo"
                   className="w-full h-full object-contain rounded-full"
