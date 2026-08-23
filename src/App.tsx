@@ -218,7 +218,7 @@ export default function App() {
                   {/* Bottom validation info desk */}
                   <div className="pt-4 border-t border-white/5 flex flex-col sm:flex-row justify-between items-start sm:items-center text-[10px] text-slate-500 font-mono gap-3">
                     <span>© 2026 Shree Shyam Money Care</span>
-                    <span>Pitampura Liaison Desk Approved</span>
+                    <span>Corporate Advisory Desk Approved</span>
                   </div>
                 </div>
               </div>

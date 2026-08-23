@@ -141,25 +141,36 @@ export default function Footer({ onNavigate, onLogoClick }: FooterProps) {
             </ul>
           </div>
 
-          {/* Pitampura India Details */}
+          {/* Mumbai India Details */}
           <div>
             <h5 className="text-xs font-mono font-bold tracking-widest text-teal-400 uppercase mb-4">
-              Delhi Liaison Desk
+              Corporate Office
             </h5>
             <p className="text-xs text-slate-400 leading-relaxed mb-4">
-              Shree Shyam Money Care Corporate Tower,<br />
-              Outer Ring Road, Pitampura, New Delhi, 110034 India
+              Shree Shyam Money Care<br />
+              Borivali East, Mumbai, 400011 India
             </p>
             <p className="text-xs text-slate-400 mb-2 font-mono">
               Phone:{' '}
-              <a href="tel:+919167858195" className="hover:text-teal-400 transition-colors">
-                +91 9167858195
+              <a href="tel:+919785658298" className="hover:text-teal-400 transition-colors">
+                +91 9785658298
               </a>
             </p>
-            <p className="text-xs text-slate-400 font-mono">
+            <p className="text-xs text-slate-400 mb-2 font-mono">
               Support:{' '}
               <a href="mailto:moneycareshyam91@gmail.com" className="hover:text-teal-400 transition-colors">
                 moneycareshyam91@gmail.com
+              </a>
+            </p>
+            <p className="text-xs text-slate-400 font-mono">
+              Web:{' '}
+              <a
+                href="https://www.shreeshyammoneycare.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-teal-400 transition-colors"
+              >
+                https://www.shreeshyammoneycare.com/
               </a>
             </p>
           </div>

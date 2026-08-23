@@ -17,7 +17,9 @@ import {
   Briefcase,
   Layers,
   Trash2,
-  FileSpreadsheet
+  FileSpreadsheet,
+  MapPin,
+  Globe
 } from 'lucide-react';
 
 interface ContactFormProps {
@@ -156,13 +158,25 @@ export default function ContactForm({ selectedService, checklistExtraNote, onInq
               <div className="space-y-5 text-sm">
                 <div className="flex items-start gap-3.5">
                   <div className="w-9 h-9 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-teal-400 shrink-0">
+                    <MapPin className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <h4 className="text-xs font-bold text-slate-300">Office Address</h4>
+                    <p className="text-sm font-semibold text-white mt-0.5 leading-snug">
+                      Borivali East, Mumbai - 400011
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3.5">
+                  <div className="w-9 h-9 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-teal-400 shrink-0">
                     <PhoneCall className="w-4 h-4" />
                   </div>
                   <div>
-                    <h4 className="text-xs font-bold text-slate-300">Call Pitampura Office</h4>
+                    <h4 className="text-xs font-bold text-slate-300">Direct Phone</h4>
                     <p className="text-sm font-semibold tracking-wide text-white mt-0.5">
-                      <a href="tel:+919167858195" className="hover:text-teal-400 transition-colors">
-                        +91 9167858195
+                      <a href="tel:+919785658298" className="hover:text-teal-400 transition-colors">
+                        +91 9785658298
                       </a>
                     </p>
                   </div>
@@ -177,6 +191,25 @@ export default function ContactForm({ selectedService, checklistExtraNote, onInq
                     <p className="text-sm font-semibold text-white mt-0.5">
                       <a href="mailto:moneycareshyam91@gmail.com" className="hover:text-teal-400 transition-colors">
                         moneycareshyam91@gmail.com
+                      </a>
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3.5">
+                  <div className="w-9 h-9 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-teal-400 shrink-0">
+                    <Globe className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <h4 className="text-xs font-bold text-slate-300">Official Website</h4>
+                    <p className="text-sm font-semibold text-white mt-0.5">
+                      <a
+                        href="https://www.shreeshyammoneycare.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-teal-400 transition-colors"
+                      >
+                        https://www.shreeshyammoneycare.com/
                       </a>
                     </p>
                   </div>
@@ -332,7 +365,7 @@ export default function ContactForm({ selectedService, checklistExtraNote, onInq
                     <div>
                       <h4 className="text-xs font-bold">Request Lodged Successfully</h4>
                       <p className="text-[11px] text-teal-700/90 font-medium leading-normal mt-0.5">
-                        Our corporate registrar has registered your request. An empanelled Chartered Accountant or senior partner from SMMC's Delhi Pitampura desk will contact you via email/phone shortly.
+                        Our corporate registrar has registered your request. An empanelled Chartered Accountant or senior partner from SMMC's corporate advisory desk will contact you via email/phone shortly.
                       </p>
                     </div>
                   </motion.div>
